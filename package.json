@@ -49,6 +49,9 @@
     "cypress-open": "cypress open cypress run",
     "cypress-run": "cypress run cypress run"
   },
+  "prisma": {
+    "schema": "db/postgresql/schema.prisma"
+  },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
       "prettier --write",
